@@ -6,7 +6,7 @@ on:
     - main
 
 env:
-  AWS_REGION: eu-west-3
+  AWS_REGION: eu-west-1
   ECR_REPOSITORY: miax11minicloudprojectlambda
   LAMBDA_NAME: miax11minicloudprojectlambda
   LAMBDA_DOCKERFILE: ./dockerfiles/lambda_miax/Dockerfile
