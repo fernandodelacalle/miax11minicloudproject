@@ -13,4 +13,4 @@ def handler(event, context):
         df_tck = apih.get_close_data(tck)
         out_path = f's3://miax11minicloudproject/{now_str}/{tck}.csv'
         print(out_path)
-        df_tck.to_csv()
+        df_tck.to_csv(out_path)
